@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_bold"
+        android:text="TOKOTO"
+        android:textAlignment="center"
+        android:textColor="#FF7643"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Tokoto, Let's shop!"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:id="@+id/splash_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/splash_1"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

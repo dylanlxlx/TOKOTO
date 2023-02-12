@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".My">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:fontFamily="@font/muli"
+        android:paddingVertical="2dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/profile_image"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="Hello, bro!"
+                android:id="@+id/hello_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="@font/muli_bold"
+                android:textColor="@color/black"
+                android:textSize="37sp"
+                tools:ignore="HardcodedText" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round9">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round9"
+                    android:drawableStart="@drawable/user_color"
+                    android:drawableEnd="@drawable/arrow_right"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/muli"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="25dp"
+                    android:text="My account"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#757575"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round9">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round9"
+                    android:drawableStart="@drawable/bell_icon"
+                    android:drawableEnd="@drawable/arrow_right"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/muli"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="25dp"
+                    android:text="Notifications"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#757575"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round9">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round9"
+                    android:drawableStart="@drawable/settings"
+                    android:drawableEnd="@drawable/arrow_right"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/muli"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="25dp"
+                    android:text="Settings"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#757575"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round9">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round9"
+                    android:drawableStart="@drawable/question_mark"
+                    android:drawableEnd="@drawable/arrow_right"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/muli"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="25dp"
+                    android:text="Help Center"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#757575"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round9">
+
+                <Button
+                    android:id="@+id/log_out"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round9"
+                    android:drawableStart="@drawable/log_out"
+                    android:drawableEnd="@drawable/arrow_right"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/muli"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="25dp"
+                    android:text="Log out"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#757575"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">tokoto</string>
+    <string name="signin_way">Sign in with your email and password or continue with social media</string>
+    <string name="enter_mail">Enter your email</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="forget_password"><u>Forget Password</u></string>
+    <string name="forgot_psd_tips">Plaese enter your email and we will send you a link to return your account</string>
+    <string name="signup_tips">Complete your details or continue with social media</string>
+    <string name="reenter_password">Re-enter your Password</string>
+    <string name="enter_name">Enter your Name</string>
+    <string name="enter_phone">Enter your Phone Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_product">Search Product</string>
+</resources>
